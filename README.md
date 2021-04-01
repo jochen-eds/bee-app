@@ -10,6 +10,6 @@ Note that several parts of the app were taken from elsewhere:
 You can check out the app in action on [Streamlit Sharing](https://share.streamlit.io/jochen-eds/bee-app/main/bee_app.py).
 
 To run the app on your local, navigate into your folder and run the following code in your command line tool:  
-`conda create --name myenv --file requirements.txt python=3.7` 
+`conda create --name myenv --file requirements.txt python=3.7`  
 `conda activate myenv`  
-`streamlit run bee_app.py
+`streamlit run bee_app.py`
