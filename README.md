@@ -8,7 +8,6 @@ Note that several parts of the app were taken from elsewhere:
 - Bee images (except the ones from the BeeImage Dataset) were taken from Wikipedia (links at the bottom of the app)
 
 To run the app local, navigate into your folder and run the following code in your command line tool:  
-*conda create -n myenv python=3.7*  
+*conda create --name myenv --file requirements.txt python=3.7*  
 *conda activate myenv*  
-*pip install -r requirements.txt*  
 *streamlit run bee_app.py*
