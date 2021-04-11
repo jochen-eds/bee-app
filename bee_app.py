@@ -74,7 +74,7 @@ col4.image(pic4, use_column_width=True)
 
 #Descriptive text
 intro2 = """The CNN (more info about its architecture and hyperparameters can 
-be found on [my homepage](https://zubrod-eds.de)) had an accuracy higher than
+be found on [my homepage](https://zubrod-eds.de/en/2021/04/11/bienen-klassifizieren-mit-cnns/)) had an accuracy higher than
 99%, meaning that from the more than 850 bee pictures that were set aside for testing 
 the CNN only 8 were classified wrong.\n
 Below you can test if you can compete with the predictive power of the CNN. 
@@ -144,7 +144,7 @@ if check:
 st.markdown('##')
 st.image(red_line)
 st.write("Created by Jochen Zubrod as part of the [Environmental Data Science \
-         Playground](https://zubrod-eds.de)")
+         Playground](https://zubrod-eds.de/en/playground/)")
 st.image(red_line)
 st.write("Picture sources")
 col1, col2, col3, col4 = st.beta_columns(4)
